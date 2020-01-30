@@ -5,7 +5,7 @@ export default class Toevoegen extends React.Component{
     constructor(props){
         super(props);
         this.state ={
-            message: 'voeg een project toe'
+            message: 'voeg een film toe'
         }
         
     }
@@ -26,7 +26,7 @@ export default class Toevoegen extends React.Component{
         }).then(res => {
             if(res.ok){
                 this.setState({
-                    status: 'project toegevoegd'
+                    status: 'film toegevoegd'
                 })
             }
         })
@@ -39,7 +39,7 @@ export default class Toevoegen extends React.Component{
         if(!this.state.status) {
           return(
             <div>
-                <h1>voeg een project toe</h1>
+                <h1>voeg een film toe</h1>
                 {
                     this.state.message ? (
                         <div>{this.state.message}</div>
@@ -66,7 +66,7 @@ export default class Toevoegen extends React.Component{
                             <input type="text" name='genre'/>
                         </div>
                         <div className="col s12">
-                            <input type="submit" value="create project" href=""/>
+                            <input type="submit" value="create film" href=""/>
                         </div>
                     </div>
                 </form>

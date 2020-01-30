@@ -35,9 +35,9 @@ function Home({match}) {
   return (
 
 
-    <div>          
+    <div class="movies">    
       {movies.map(movie => (
-        <h1>
+        <h1 class="moviecard">
           <Link to={`/movies/${movie._id}`}>{movie.name}</Link>
           </h1>
 

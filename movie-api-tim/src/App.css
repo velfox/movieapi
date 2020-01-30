@@ -32,6 +32,7 @@ li{
 
 a{
   text-decoration: none;
+  color: darkslategrey;
 }
 
 
@@ -54,4 +55,22 @@ button{
 button:hover{
   box-shadow: rgb(255, 255, 255) 1px 1px 50px;
   background-color: rgb(180, 36, 36);
+}
+
+.moviecard{
+  background-color: burlywood;
+  padding: 30px;
+  box-shadow: rgb(255, 255, 255) 1px 1px 50px;
+  color: darkslategrey;
+  width: fit-content;
+  border-radius: 4px;
+}
+
+.movies{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  color: white;
+  margin-top: 100px;
 }

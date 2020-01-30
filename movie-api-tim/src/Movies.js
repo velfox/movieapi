@@ -27,7 +27,7 @@ function Movies() {
 
 
   return (
-    <div>
+    <div >
       {movies.map(movie => (
         <h1> <Link to={`/movies/${movie._id}`}>{movie.name}</Link> </h1>
       ))}
