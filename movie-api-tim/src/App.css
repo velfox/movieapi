@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: brown;
+  color: white;
+} 
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+li{
+  background-color: brown;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  box-shadow: bisque 2px 2px 100px;
+  transition: all 0.7s;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+li:hover{
+  box-shadow: rgb(255, 255, 255) 1px 1px 50px;
+  background-color: rgb(180, 36, 36);
+}
+
+button{
+  background-color: brown;
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  box-shadow: bisque 2px 2px 100px;
+  transition: all 0.7s;
+}
+
+button:hover{
+  box-shadow: rgb(255, 255, 255) 1px 1px 50px;
+  background-color: rgb(180, 36, 36);
+}
